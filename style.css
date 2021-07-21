@@ -1,0 +1,582 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.url1 {
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    height: 80px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    z-index: 600;
+}
+
+.aff {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    left: 0;
+    top: 0;
+    position: relative;
+    height: 80px;
+    width: 520px;
+    background-color: rgba(0, 0, 0, 0.568);
+    z-index: 11;
+}
+
+.logo {
+    width: 114px;
+    height: 80px;
+}
+
+.haeder {
+    width: 130px;
+    height: 80px;
+    border-bottom: 4px solid transparent;
+    font-weight: 400;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.haeder:hover {
+    background-color: rgb(139, 139, 139);
+    border-bottom: 5px solid rgb(211, 211, 211);
+}
+
+.header_buttons {
+    width: 180px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 2000;
+}
+
+.btn1 {
+    width: 67px;
+    height: 34px;
+    background-color: rgba(0, 255, 255, 0);
+    border-radius: 8px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.btn2 {
+    width: 70px;
+    height: 34px;
+    background-color: chartreuse;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    color: white;
+}
+
+.network {
+    background: url(https://aff1.com/images/aff1_promo/aff1_promo_header.jpeg)
+        no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.network_bg {
+    height: 1000px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+
+.network_banner {
+    position: absolute;
+    height: 230px;
+    width: 640px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-weight: 700;
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.banner_text {
+    font-size: 18px;
+}
+
+.auth {
+    color: aliceblue;
+    background-color: chartreuse;
+    width: 110px;
+    height: 55px;
+    font-size: 24px;
+    font-family: serif;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 1px solid green;
+}
+
+.auth1 {
+    color: aliceblue;
+    background-color: rgba(128, 255, 0, 0);
+    width: 110px;
+    height: 55px;
+    font-size: 24px;
+    font-family: sans-serif;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 1px solid green;
+}
+
+.auth1:hover {
+    background-color: chartreuse;
+}
+
+.about_h {
+    font-size: 42px;
+    color: rgb(45, 192, 89);
+    text-align: center;
+    margin-top: 90px;
+}
+
+.about_p {
+    font-size: 17px;
+    font-family: inherit;
+    margin: 40px;
+    color: #a2a8af;
+    font-weight: 500;
+    text-align: center;
+    border-bottom: 120px;
+}
+
+.about_l {
+    margin-left: auto;
+    margin-right: auto;
+    width: 65px;
+    height: 3px;
+    background: rgb(45, 192, 89);
+    margin-top: 26px;
+}
+
+.conteiner {
+    width: 100%;
+}
+
+.conteiner_footer {
+    height: 500px;
+    padding-top: 81px;
+    padding-bottom: 80px;
+    background-color: #f6f9fa;
+    display: flex;
+    justify-content: center;
+}
+
+.logo_footer {
+    width: 95px;
+    height: 45px;
+}
+
+.Partnership {
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 37px;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+.conteiner_info {
+    width: 303px;
+    height: 413px;
+}
+
+.Partnership2 {
+    width: 303px;
+    height: 56px;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    margin-top: 5px;
+    display: inline-block;
+    font-family: TTNorms, serif;
+    line-height: 1.42857143;
+}
+
+.conteiner_iconsc {
+    width: 300px;
+    height: 32px;
+    margin-top: 37px;
+    margin-left: 3px;
+    display: flex;
+}
+
+.icon_insta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #6c6c6c;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    text-decoration: none;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.icon_insta:hover {
+    background-image: linear-gradient(
+        to right,
+        rgb(221, 136, 24),
+        rgb(197, 33, 33),
+        rgb(192, 14, 216)
+    );
+}
+
+.icon_linkd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #6c6c6c;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    text-decoration: none;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.icon_linkd:hover {
+    background-color: rgb(103, 103, 247);
+}
+
+.icon_vk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #6c6c6c;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    text-decoration: none;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.icon_vk:hover {
+    background-color: rgb(89, 89, 247);
+}
+
+.copyright {
+    width: 232px;
+    height: 22px;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 37px;
+    margin-bottom: 10px;
+}
+
+.adr {
+    width: 303px;
+    height: 66px;
+    font-size: 16px;
+}
+
+.burger {
+    display: none;
+    flex-direction: row;
+    width: 16px;
+    color: rgba(255, 255, 240, 0);
+}
+
+.icon {
+    font-size: 16px;
+    color: white;
+}
+
+.publisher {
+    font-size: 42px;
+    font-weight: 400;
+    color: rgb(45, 192, 89);
+    text-align: center;
+    margin-top: 90px;
+}
+
+.publisher_line {
+    margin-left: auto;
+    margin-right: auto;
+    width: 65px;
+    height: 3px;
+    background: rgb(45, 192, 89);
+    margin-top: 26px;
+}
+
+.colm_img > p,
+h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.colm_img p {
+    font-weight: 400;
+    font-size: 15px;
+    color: #a7afb8;
+}
+
+.colm_img > h3 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.img_block {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-column-gap: 15px;
+    grid-row-gap: 50px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn_publ {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 98px;
+    height: 44px;
+    background-color: #ff0049;
+    border-color: #ff0049;
+    border-radius: 3px;
+    margin-top: 15px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    color: azure;
+}
+
+.btn_container {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.offers {
+    font-size: 42px;
+    font-weight: 400;
+    color: rgb(45, 192, 89);
+    text-align: center;
+    margin-top: 90px;
+}
+
+.offers_line {
+    margin-left: auto;
+    margin-right: auto;
+    width: 65px;
+    height: 3px;
+    background: rgb(45, 192, 89);
+    margin-top: 26px;
+}
+
+.animation_block {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 38px;
+    flex-wrap: wrap;
+    height: fit-content;
+}
+
+.front,
+.back {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: 1s;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transform: perspective(600px);
+    transition: -webkit-transform 0.6s linear;
+    transition: transform 0.6s linear;
+    transition: transform 0.6s linear, -webkit-transform 0.6s linear;
+}
+
+.card:hover > .front {
+    transform: perspective(600px) rotateY(-180deg);
+}
+
+.card:hover > .back {
+    transform: perspective(600px) rotateY(0deg);
+}
+
+.front {
+    transform: perspective(600px) rotateY(0deg);
+}
+
+.back {
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.Gambling {
+    background-color: #ff0049;
+}
+
+.Ecommerce {
+    background-color: #a76990;
+}
+
+.Finance {
+    background-color: #4a9ed2;
+}
+
+.Mobile {
+    background-color: #17ba9d;
+}
+
+.front > img {
+    margin-top: 90px;
+}
+
+.front > h3 {
+    margin-top: 66px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #fff;
+    font-family: inherit;
+    line-height: 1.1;
+    font-size: 22px;
+}
+
+.front > p {
+    font-size: 16px;
+    color: #fff;
+    display: flex;
+    margin-top: 22px;
+    line-height: 1.5;
+    letter-spacing: -0.2px;
+    height: 63px;
+    font-family: TTNorms, serif;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    font-weight: 600;
+}
+
+.back > .sub_title {
+    font-size: 16px;
+    color: #fff;
+    display: flex;
+    line-height: 1.5;
+    letter-spacing: -0.2px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    font-weight: 600;
+}
+
+.back > .description {
+    text-align: center;
+    padding: 0 15px;
+    margin: 0;
+    height: auto;
+    font-size: 16px;
+    color: #fff;
+    display: flex;
+    line-height: 1.5;
+    letter-spacing: -0.2px;
+    height: 63px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    font-weight: 600;
+}
+
+.offers_text {
+    font-size: 17px;
+    margin: 40px 150px 0 150px;
+    color: #a7afb8;
+    font-weight: 500;
+    text-align: center;
+    font-family: inherit;
+    line-height: 1.1;
+    height: fit-content;
+}
+
+.app {
+    background-color: #f6f9fa;
+}
+
+.card {
+    width: 220px;
+    height: 343px;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 9px;
+    margin-left: 8.5px;
+    flex-shrink: 0;
+    margin-top: 18px;
+    position: relative;
+}
+
+.application {
+    width: 147px;
+    height: 39px;
+}
+
+@media screen and (max-width: 800px) {
+    .img_conteiner,
+    .haeder,
+    .header_buttons {
+        display: none;
+    }
+
+    .burger {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 5%;
+        font-size: 36px;
+        color: rgb(253, 253, 247);
+    }
+
+    .network_banner {
+        height: 440px;
+        width: 340px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        font-weight: 700;
+        font-size: 36px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+
+    .img_block {
+        display: list-item;
+        grid-gap: 15px;
+        justify-content: center;
+        text-align: center;
+        margin-top: 40px;
+    }
+}
